@@ -1,0 +1,118 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(24px) saturate(1.4);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4);
+  border-bottom: 1px solid rgba(110, 65, 230, 0.08);
+}
+
+.navbar {
+  height: 64px;
+  max-width: 1376px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px 8px 12px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(26, 26, 46, 0.5);
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.backBtn:hover {
+  color: rgba(26, 26, 46, 0.9);
+  background: rgba(110, 65, 230, 0.06);
+}
+
+.brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoText {
+  font-weight: 500;
+  font-size: 24px;
+  color: #1a1a2e;
+  display: inline-flex;
+  cursor: default;
+}
+
+.logoLetter {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.brand:hover .logoLetter {
+  animation: letterBounce 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes letterBounce {
+  0% { transform: translateY(0) scale(1); }
+  40% { transform: translateY(-4px) scale(1.1) rotate(-3deg); }
+  70% { transform: translateY(1px) scale(0.97); }
+  100% { transform: translateY(0) scale(1) rotate(0deg); }
+}
+
+.plusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(110, 65, 230, 0.1);
+  border: 1px solid rgba(110, 65, 230, 0.2);
+  font-size: 12px;
+  font-weight: 700;
+  color: #6E41E6;
+  letter-spacing: 0.02em;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: none;
+  background: #6E41E6;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.15s ease;
+  box-shadow: 0 0 20px rgba(110, 65, 230, 0.3);
+}
+
+.ctaBtn:hover {
+  transform: translateY(-1px);
+  background: #7c52f0;
+  box-shadow: 0 0 30px rgba(110, 65, 230, 0.45);
+}
+
+@media (max-width: 600px) {
+  .backBtn span {
+    display: none;
+  }
+
+  .ctaBtn span {
+    display: none;
+  }
+}

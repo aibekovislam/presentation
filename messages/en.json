@@ -1,0 +1,1033 @@
+{
+  "Metadata": {
+    "title": "Bolmo — roommates and flat sharing in Bishkek",
+    "description": "Bolmo is a service for finding roommates and rooms for flat sharing in Bishkek. Verified listings, compatibility profiles, secure chat and simple agreements."
+  },
+  "RentPage": {
+    "metaTitle": "Rent housing in Bishkek — apartments, rooms, houses",
+    "metaDescription": "Rent housing in Bishkek: apartments, rooms, houses and cottages. Long-term and daily rentals with verified listings on Bolmo.",
+    "heading": "Rent housing",
+    "subheading": "Find your perfect rental in Bishkek"
+  },
+  "SalePage": {
+    "metaTitle": "Buy property in Bishkek — apartments, houses, land",
+    "metaDescription": "Buy property in Bishkek: apartments, houses, cottages and land plots. Verified listings on Bolmo.",
+    "heading": "Property for sale",
+    "subheading": "Find your perfect property to buy in Bishkek"
+  },
+  "CoLivingPage": {
+    "metaTitle": "Co-living in Bishkek — find a roommate",
+    "metaDescription": "Find roommates for shared housing in Bishkek. Profiles, verified listings and secure chat on Bolmo.",
+    "heading": "Co-living",
+    "subheading": "Find your perfect roommate for shared living",
+    "tabAds": "Listings",
+    "tabProfiles": "Roommate profiles"
+  },
+  "CoLivingDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "coLiving": "Co-living"
+    },
+    "share": "Share",
+    "save": "Save",
+    "saved": "Saved",
+    "published": "Published",
+    "views": {
+      "one": "view",
+      "few": "views",
+      "many": "views"
+    },
+    "propertyType": {
+      "flat": "Apartment",
+      "house": "House"
+    },
+    "offeredPlace": {
+      "separate_room": "Separate room",
+      "shared_room": "Shared room",
+      "bed_place": "Bed space",
+      "bed": "Bed"
+    },
+    "residents": "residents",
+    "rooms": "rooms",
+    "currentResidents": "Current residents",
+    "residentsCount": "Currently living: {count}",
+    "hasPets": "has pets",
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "any": "Any"
+    },
+    "years": "y.o.",
+    "desiredRoommate": "Looking for",
+    "preferredGender": "Gender",
+    "applicantsCount": "Looking for people",
+    "withKids": "With kids",
+    "withPets": "With pets",
+    "occupationNotes": "Occupation",
+    "rules": {
+      "title": "House rules",
+      "smoking": "Smoking",
+      "guests": "Guests",
+      "parties": "Parties",
+      "pets": "Pets",
+      "kids": "Kids"
+    },
+    "policy": {
+      "yes": "Allowed",
+      "no": "Not allowed",
+      "rare": "Sometimes"
+    },
+    "description": "Description",
+    "showMore": "Show more →",
+    "showLess": "Show less ↑",
+    "paymentPeriod": {
+      "per_month": "month",
+      "per_week": "week",
+      "per_day": "day"
+    },
+    "card": {
+      "contactOwner": "Message",
+      "showPhone": "Show phone",
+      "placeType": "Place type",
+      "propertyType": "Property type",
+      "residents": "Residents",
+      "utilities": "Utilities",
+      "deposit": "Deposit",
+      "preferredGender": "Preferred gender",
+      "note": "Contact the author for more details",
+      "compatibility": "Compatibility",
+      "compatibilityDesc": "Based on your profile"
+    },
+    "utilities": {
+      "included": "Included",
+      "excluded": "Separate",
+      "separate": "Separate",
+      "partial": "Partial",
+      "partly": "Partial"
+    },
+    "similar": "Similar listings",
+    "notFound": "Listing not found",
+    "backToList": "← Back to listings",
+    "promoText": "Your ad could be here",
+    "promoTitle": "Your ad could be here",
+    "promoDesc": "Advertise on bolmo and attract thousands of potential clients every day",
+    "promoBtn": "Contact us",
+    "shareModal": {
+      "title": "Share",
+      "copied": "Copied!",
+      "copy": "Copy"
+    },
+    "owner": {
+      "title": "About the author",
+      "onBolmoSince": "On Bolmo since {date}",
+      "listings": "listings",
+      "verified": "Verified",
+      "call": "Call",
+      "message": "Message"
+    }
+  },
+  "Ads": {
+    "searchBar": {
+      "locationShort": "Where?",
+      "location": "Where? district, area, landmark",
+      "locationLabel": "Where",
+      "rooms": "Rooms",
+      "roomsSuffix": "rooms",
+      "roomsLabel": "Rooms",
+      "roomsPlaceholder": "How many rooms?",
+      "price": "Price",
+      "priceLabel": "Price",
+      "pricePlaceholder": "Set your budget",
+      "priceFrom": "from",
+      "priceTo": "to",
+      "search": "Search",
+      "districts": "Search by district",
+      "district": {
+        "leninsky": "Leninsky district",
+        "oktyabrsky": "Oktyabrsky district",
+        "pervomaysky": "Pervomaysky district",
+        "sverdlovsky": "Sverdlovsky district",
+        "center": "City center",
+        "jugZapad": "South / South-West",
+        "asanbai": "Asanbai",
+        "microrayonы": "Microdistricts"
+      },
+      "pricePreset": {
+        "to10": "up to 10,000 KGS",
+        "to15": "up to 15,000 KGS",
+        "to20": "up to 20,000 KGS",
+        "to30": "up to 30,000 KGS",
+        "to50": "up to 50,000 KGS",
+        "over50": "50,000+ KGS"
+      }
+    },
+    "chips": {
+      "budget": "Rent under 20k",
+      "roommate": "Looking for roommate",
+      "pets": "Pets allowed",
+      "center": "City center",
+      "daily": "Daily rent",
+      "forGirls": "For women",
+      "vacation": "For vacation",
+      "noBroker": "No brokers"
+    },
+    "sections": {
+      "rentApartments": "Apartments for rent"
+    },
+    "favorite": "Add to favorites",
+    "kind": {
+      "RENT": "Rent",
+      "SALE": "Sale",
+      "HOUSEMATE": "Co-living"
+    },
+    "rooms": "rooms",
+    "residents": "people",
+    "rentType": {
+      "long_term": "Long-term",
+      "daily": "Daily"
+    },
+    "offeredPlace": {
+      "separate_room": "Separate room",
+      "shared_room": "Shared room",
+      "bed": "Bed space",
+      "bed_place": "Bed space"
+    },
+    "propertyType": {
+      "flat": "Apartment",
+      "house": "House",
+      "cottage": "Cottage",
+      "land": "Land",
+      "room": "Room"
+    },
+    "noResults": "No listings yet",
+    "prev": "Previous",
+    "next": "Next",
+    "filters": {
+      "search": "Search listings...",
+      "filters": "Filters",
+      "apply": "Search",
+      "clear": "Clear",
+      "city": "City",
+      "priceFrom": "Price from",
+      "priceTo": "Price to",
+      "sortNew": "Newest first",
+      "sortPrice": "By price",
+      "rentType": "Rent type",
+      "rooms": "Rooms",
+      "propertyType": "Property type",
+      "placeType": "Place type"
+    },
+    "profiles": {
+      "searchPlaceholder": "Search profiles...",
+      "gender": {
+        "male": "Male",
+        "female": "Female",
+        "any": "Any"
+      },
+      "years": "y.o."
+    }
+  },
+  "LayoutMetadata": {
+    "titleDefault": "Bolmo — roommates and flat sharing in Bishkek",
+    "description": "Bolmo is a service for finding roommates and rooms for flat sharing in Bishkek. Verified listings, compatibility profiles, secure chat and simple agreements.",
+    "ogTitle": "Bolmo — find roommates and rooms in Bishkek",
+    "ogDescription": "Find roommates, rooms and shared housing in Bishkek: compatibility profiles, verified listings, secure chat and simple agreements.",
+    "ogAlt": "Bolmo — roommates and rooms service in Bishkek",
+    "twitterTitle": "Bolmo — roommates and flat sharing in Bishkek",
+    "twitterDescription": "Find roommates and rooms for shared housing in Bishkek. Secure chat, verification and simple agreements."
+  },
+  "HomePage": {
+    "Header": {
+      "nav": {
+        "rent": "Rent",
+        "coLiving": "Co-living",
+        "sale": "Sale"
+      },
+      "actions": {
+        "postAd": "Post an ad",
+        "language": "Language",
+        "menu": "Menu",
+        "signIn": "Sign in",
+        "profile": "Profile",
+        "verifyContact": "Verify contact",
+        "logout": "Log out",
+        "account": "Account"
+      },
+      "brandTagline": "Rent • Sale • Co-living",
+      "megaTabs": {
+        "rent": "Rent",
+        "coLiving": "Co-living",
+        "sale": "Sale"
+      },
+      "rent": {
+        "long": "Long-term rent",
+        "flats": "Apartments",
+        "room": "Room",
+        "houses": "Houses & cottages",
+        "daily": "Daily rent",
+        "leaseOut": "Lease out"
+      },
+      "coLiving": {
+        "search": "Find a roommate",
+        "post": "Browse profiles"
+      },
+      "sale": {
+        "flat": "Apartments",
+        "house": "Houses & cottages",
+        "land": "Land plots"
+      },
+      "forms": {
+        "renter": "Renter profile",
+        "roommate": "Roommate profile"
+      },
+      "journal": {
+        "rent": "Bolmo.Journal / Rent",
+        "coLiving": "Bolmo.Journal / Co-living",
+        "forms": "Bolmo.Journal / Form"
+      }
+    }
+  },
+  "auth": {
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join Bolmo to find your perfect roommate",
+    "loginTitle": "Sign In",
+    "loginSubtitle": "Welcome back to Bolmo",
+    "verifyEmailTitle": "Verify Your Email",
+    "verifyEmailSubtitle": "Enter your email or phone number to receive a verification code",
+    "enterCodeSubtitle": "Enter the 6-digit code sent to your email",
+    "resetPasswordTitle": "Reset Password",
+    "resetPasswordSubtitle": "Enter your email or phone number to reset your password",
+    "enterNewPasswordSubtitle": "Enter the code and your new password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "contact": "Email or Phone",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "verificationCode": "Verification Code",
+    "acceptTerms": "I accept the",
+    "termsOfService": "Terms of Service",
+    "marketingOptIn": "I want to receive marketing emails",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "register": "Register",
+    "registering": "Registering...",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "sendCode": "Send Code",
+    "sending": "Sending...",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "resendCode": "Resend Code",
+    "sendResetCode": "Send Reset Code",
+    "resetPassword": "Reset Password",
+    "resetting": "Resetting...",
+    "haveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "backToLogin": "Back to Login",
+    "codeSentTo": "Code sent to",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong",
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email",
+    "contactRequired": "Email or phone is required",
+    "contactInvalid": "Please enter a valid email or phone number",
+    "passwordRequired": "Password is required",
+    "codeRequired": "Verification code is required",
+    "codeInvalid": "Code must be 6 digits",
+    "passwordMismatch": "Passwords do not match",
+    "termsRequired": "You must accept the terms of service"
+  },
+  "Profile": {
+    "verified": "Verified",
+    "notVerified": "Not verified",
+    "memberSince": "On Bolmo since {date}",
+    "views": "views",
+    "tabs": {
+      "myAds": "My Ads",
+      "favorites": "Favorites",
+      "settings": "Settings"
+    },
+    "statusFilter": {
+      "all": "All",
+      "PUBLISHED": "Active",
+      "DRAFT": "Drafts",
+      "ARCHIVED": "Archived"
+    },
+    "status": {
+      "PUBLISHED": "Active",
+      "DRAFT": "Draft",
+      "ARCHIVED": "Archived"
+    },
+    "actions": {
+      "publish": "Publish",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "archive": "Archive"
+    },
+    "emptyAds": {
+      "title": "No ads yet",
+      "desc": "Create your first ad and start getting responses.",
+      "action": "Create Ad"
+    },
+    "emptyFavs": {
+      "title": "No favorites yet",
+      "desc": "Save ads you like to favorites so you don't lose them.",
+      "action": "Browse Ads"
+    },
+    "verify": {
+      "title": "Verify your phone",
+      "desc": "To publish an ad, you need to verify your phone number.",
+      "phoneLabel": "Phone number",
+      "phoneRequired": "Enter your phone number",
+      "sendCode": "Send code",
+      "sending": "Sending...",
+      "sendFailed": "Failed to send code",
+      "codeLabel": "SMS code",
+      "codeInvalid": "Enter a 6-digit code",
+      "codeSentTo": "Code sent to {phone}",
+      "confirm": "Confirm",
+      "verifying": "Verifying...",
+      "confirmFailed": "Invalid code",
+      "resend": "Resend code"
+    },
+    "settings": {
+      "changePassword": "Change Password",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password",
+      "savePassword": "Change Password",
+      "saving": "Saving...",
+      "currentPwRequired": "Enter current password",
+      "newPwTooShort": "Minimum 6 characters",
+      "pwMismatch": "Passwords do not match",
+      "pwChangeFailed": "Failed to change password",
+      "pwChangeSuccess": "Password changed successfully",
+      "logoutTitle": "Log Out",
+      "logoutBtn": "Log Out"
+    }
+  },
+  "RentDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "rent": "Rent"
+    },
+    "share": "Share",
+    "save": "Save",
+    "saved": "Saved",
+    "propertyType": {
+      "flat": "Apartment",
+      "room": "Room",
+      "house": "House",
+      "cottage": "Cottage",
+      "studio": "Studio"
+    },
+    "rentType": {
+      "long_term": "Long-term rent",
+      "daily": "Daily rent"
+    },
+    "published": "Published",
+    "views": {
+      "one": "view",
+      "few": "views",
+      "many": "views"
+    },
+    "stats": {
+      "totalArea": "Total area",
+      "livingArea": "Living area",
+      "kitchenArea": "Kitchen area",
+      "rooms": "Rooms",
+      "floor": "Floor",
+      "floorOf": "of",
+      "yearBuilt": "Year built",
+      "maxResidents": "Max residents",
+      "minLease": "Min lease",
+      "months": "mo."
+    },
+    "amenities": "Amenities",
+    "description": "Description",
+    "showMore": "Show more →",
+    "showLess": "Show less ↑",
+    "rules": {
+      "title": "Living rules",
+      "pets": "Pets",
+      "kids": "Kids",
+      "smoking": "Smoking",
+      "alcohol": "Alcohol",
+      "parties": "Parties",
+      "instruments": "Musical instruments",
+      "guests": "Guests",
+      "cleaning": "Cleaning required",
+      "shoesOff": "Shoes off",
+      "quietHours": "Quiet hours",
+      "allowed": "Allowed",
+      "notAllowed": "Not allowed",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "location": "Location",
+    "card": {
+      "perDay": "day",
+      "perMonth": "month",
+      "negotiable": "Negotiable",
+      "contactOwner": "Contact owner",
+      "showPhone": "Show phone",
+      "utilities": "Utilities",
+      "deposit": "Deposit",
+      "commission": "Commission",
+      "noCommission": "none",
+      "prepayment": "Prepayment",
+      "leaseTerm": "Lease term",
+      "leaseFrom": "from",
+      "maxResidents": "Max residents",
+      "livingConditions": "Living conditions",
+      "withKids": "with kids",
+      "withPets": "with pets",
+      "note": "Contact the owner for more details"
+    },
+    "utilities": {
+      "included": "Included in rent",
+      "excluded": "Paid separately",
+      "partial": "Partially included"
+    },
+    "amenityLabels": {
+      "wifi": "Wi-Fi",
+      "ac": "Air conditioning",
+      "air_conditioner": "Air conditioning",
+      "elevator": "Elevator",
+      "security": "Security",
+      "tv": "TV",
+      "parking": "Parking",
+      "gym": "Gym",
+      "pool": "Pool",
+      "washer": "Washing machine",
+      "washing_machine": "Washing machine",
+      "balcony": "Balcony",
+      "fridge": "Fridge",
+      "refrigerator": "Fridge",
+      "heating": "Heating",
+      "kitchen": "Kitchen",
+      "furniture": "Furniture",
+      "bath": "Bathroom",
+      "dishwasher": "Dishwasher",
+      "microwave": "Microwave",
+      "bedroom": "Bedroom"
+    },
+    "similar": "Similar listings",
+    "notFound": "Listing not found",
+    "backToList": "← Back to listings",
+    "allPhotos": "All photos",
+    "promoText": "Your ad could be here",
+    "promoTitle": "Your ad could be here",
+    "promoDesc": "Place your ad on bolmo and attract thousands of potential customers every day",
+    "promoBtn": "Contact us",
+    "shareModal": {
+      "title": "Share",
+      "copied": "Copied!",
+      "copy": "Copy"
+    },
+    "nav": {
+      "photos": "Photos",
+      "description": "Description",
+      "location": "Location",
+      "similar": "Similar listings"
+    },
+    "owner": {
+      "title": "About the owner",
+      "onBolmoSince": "On Bolmo since {date}",
+      "listings": "listings",
+      "verified": "Verified",
+      "notVerified": "Not verified",
+      "call": "Call",
+      "message": "Message"
+    }
+  },
+  "CreateAd": {
+    "title": "Post an Ad",
+    "subtitle": "Fill in the information about your property",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Back",
+    "publish": "Publish",
+    "publishing": "Publishing...",
+    "addPhoto": "Add",
+    "photosHint": "Add up to 8 photos. The first photo will be the cover.",
+    "steps": {
+      "type": "Type",
+      "basic": "Basic",
+      "details": "Details",
+      "review": "Done"
+    },
+    "types": {
+      "rent": "Rent",
+      "rentDesc": "Rent out a flat, room or house",
+      "sale": "Sale",
+      "saleDesc": "Sell a flat, house or land",
+      "housemate": "Co-living",
+      "housemateDesc": "Find a roommate for shared living"
+    },
+    "sections": {
+      "basicInfo": "Basic Information",
+      "location": "Location",
+      "price": "Price",
+      "rentDetails": "Rent Details",
+      "saleDetails": "Sale Details",
+      "housemateDetails": "Co-living Details",
+      "amenities": "Amenities",
+      "photos": "Photos",
+      "rules": "Living Rules",
+      "propertyParams": "Property Details",
+      "rentalConditions": "Rental Conditions"
+    },
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "city": "City",
+      "district": "District",
+      "street": "Street",
+      "houseNumber": "House number",
+      "landmark": "Landmark",
+      "mapLabel": "Point on map",
+      "mapHint": "Click the map to set the exact location, or enter the street and house number — the pin will appear automatically",
+      "price": "Price",
+      "currency": "Currency",
+      "rentType": "Rent type",
+      "propertyType": "Property type",
+      "roomsCount": "Rooms",
+      "maxResidents": "Max residents",
+      "depositAmount": "Deposit",
+      "totalAreaM2": "Total area (m²)",
+      "livingAreaM2": "Living area (m²)",
+      "kitchenAreaM2": "Kitchen area (m²)",
+      "floor": "Floor",
+      "totalFloors": "Total floors",
+      "yearBuilt": "Year built",
+      "commissionPercent": "Commission (%)",
+      "prepaymentMonths": "Prepayment (months)",
+      "minLeaseMonths": "Min. lease (months)",
+      "utilitiesPaymentType": "Utilities payment",
+      "isNegotiable": "Negotiable",
+      "totalArea": "Area (m²)",
+      "housematePropertyType": "Property type",
+      "offeredPlaceType": "What you offer",
+      "residentsCount": "Number of residents"
+    },
+    "placeholders": {
+      "title": "e.g. Cozy 2-room apartment in the center",
+      "description": "Tell more about your property...",
+      "price": "0",
+      "roomsCount": "Rooms",
+      "maxResidents": "Max residents",
+      "depositAmount": "Deposit amount",
+      "floor": "Floor",
+      "totalFloors": "Total floors",
+      "yearBuilt": "Year",
+      "prepaymentMonths": "Months",
+      "minLeaseMonths": "Months",
+      "utilitiesPaymentType": "Select",
+      "totalArea": "m²",
+      "residentsCount": "Number of people",
+      "district": "Select a district",
+      "street": "e.g. Manasa",
+      "houseNumber": "e.g. 35",
+      "landmark": "e.g. Near Yntymak park",
+      "additionalRules": "e.g. No noise after 10 PM, no smoking indoors...",
+      "customAmenity": "e.g. sauna, gym..."
+    },
+    "cities": {
+      "bishkek": "Bishkek",
+      "osh": "Osh",
+      "jalalabad": "Jalal-Abad",
+      "karakol": "Karakol",
+      "tokmok": "Tokmok"
+    },
+    "rentTypes": {
+      "long_term": "Long-term",
+      "daily": "Daily"
+    },
+    "propertyTypes": {
+      "flat": "Apartment",
+      "room": "Room",
+      "house": "House",
+      "cottage": "Cottage",
+      "studio": "Studio",
+      "land": "Land"
+    },
+    "placeTypes": {
+      "separate_room": "Separate room",
+      "shared_room": "Shared room",
+      "bed_place": "Bed space",
+      "bed": "Bed"
+    },
+    "amenities": {
+      "wifi": "Wi-Fi",
+      "washer": "Washing machine",
+      "fridge": "Fridge",
+      "ac": "Air conditioning",
+      "tv": "TV",
+      "parking": "Parking",
+      "balcony": "Balcony",
+      "furniture": "Furniture",
+      "dishwasher": "Dishwasher",
+      "microwave": "Microwave",
+      "custom": "Custom amenity",
+      "add": "Add"
+    },
+    "utilities": {
+      "included": "Included in rent",
+      "separate": "Paid separately",
+      "partly": "Partially included",
+      "excluded": "Not included"
+    },
+    "rules": {
+      "allowedWithKids": "Kids allowed",
+      "allowedWithPets": "Pets allowed",
+      "smokingAllowed": "Smoking allowed",
+      "alcoholAllowed": "Alcohol allowed",
+      "partiesAllowed": "Parties allowed",
+      "instrumentsAllowed": "Musical instruments allowed",
+      "guestsAllowed": "Guests allowed",
+      "cleaningRequired": "Cleaning required",
+      "shoesOffRequired": "Shoes off required",
+      "quietHoursFrom": "Quiet hours from",
+      "quietHoursTo": "Quiet hours to",
+      "additionalRulesText": "Additional rules"
+    },
+    "verify": {
+      "title": "Verify your phone",
+      "desc": "To publish an ad, you need to verify your phone number. We'll send you an SMS code.",
+      "phoneLabel": "Phone number",
+      "phoneRequired": "Enter your phone number",
+      "sendCode": "Send code",
+      "sending": "Sending...",
+      "sendFailed": "Failed to send code. Try again later.",
+      "codeLabel": "SMS code",
+      "codeInvalid": "Enter a 6-digit code",
+      "codeSentTo": "Code sent to {phone}",
+      "confirm": "Confirm",
+      "verifying": "Verifying...",
+      "confirmFailed": "Invalid code. Please try again.",
+      "resend": "Resend code"
+    },
+    "errors": {
+      "titleRequired": "Enter a title",
+      "priceRequired": "Enter a price",
+      "cityRequired": "Select a city",
+      "districtRequired": "Select a district",
+      "roomsInvalid": "Enter 1 to 20 rooms",
+      "areaInvalid": "Enter a valid area",
+      "residentsRequired": "Enter the number of residents",
+      "generic": "An error occurred. Please try again."
+    },
+    "success": {
+      "publishedTitle": "Ad Published!",
+      "publishedDesc": "Your ad has been created and sent for moderation. It will appear in search after review.",
+      "draftTitle": "Draft Saved",
+      "draftDesc": "Your ad has been saved as a draft. Verify your phone number to publish it.",
+      "viewAd": "View Ad",
+      "createAnother": "Create Another"
+    }
+  },
+  "CoLivingLanding": {
+    "hero": {
+      "badge": "A new way to live together",
+      "title": "Find your perfect roommate for shared living",
+      "subtitle": "Match with compatible roommates, browse verified listings, and start comfortable co-living today.",
+      "features": {
+        "verified": {
+          "title": "Verified profiles",
+          "desc": "All users pass verification"
+        },
+        "matching": {
+          "title": "Compatibility matching",
+          "desc": "Find people with a similar lifestyle"
+        },
+        "safe": {
+          "title": "Safe communication",
+          "desc": "Built-in chat for introductions"
+        }
+      },
+      "card1": {
+        "name": "Aibek",
+        "info": "25 y.o., IT specialist",
+        "tag": "Looking for a room"
+      },
+      "card2": {
+        "name": "Maria",
+        "info": "23 y.o., student",
+        "tag": "Looking for a roommate"
+      },
+      "match": "92% Match!",
+      "matchDesc": "Similar interests and lifestyle"
+    },
+    "card": {
+      "place": {
+        "separate_room": "Separate room",
+        "shared_room": "Shared room",
+        "bed_place": "Bed space",
+        "bed": "Bed"
+      },
+      "smoking": "Smoking",
+      "pets": "Pets",
+      "parties": "Parties",
+      "period": {
+        "per_month": "mo",
+        "per_week": "wk",
+        "per_day": "day"
+      },
+      "prop": {
+        "flat": "Apartment",
+        "house": "House",
+        "hostel": "Hostel",
+        "other": "Other"
+      },
+      "residents": "people",
+      "gender": {
+        "male": "For men",
+        "female": "For women"
+      },
+      "verified": "Verified",
+      "housing": "Housing",
+      "roommates": "Roommates",
+      "of": "of",
+      "deposit": "Deposit",
+      "lookingFor": "Looking for",
+      "noSmoking": "No smoking",
+      "noParties": "No parties",
+      "noPets": "No pets",
+      "petsOk": "Pets allowed",
+      "noGuests": "No guests",
+      "matchTitle": "Compatibility",
+      "matchHigh": "Great match",
+      "matchMed": "Average match",
+      "matchLow": "Low match",
+      "profileVerified": "Profile verified",
+      "details": "Details"
+    },
+    "profile": {
+      "gender": {
+        "male": "Male",
+        "female": "Female",
+        "any": "Any"
+      },
+      "years": "years",
+      "contact": "Contact"
+    },
+    "feed": {
+      "searchPlaceholder": "Search listings...",
+      "searchProfiles": "Search profiles...",
+      "placeTypeAll": "All place types",
+      "place": {
+        "separate_room": "Separate room",
+        "shared_room": "Shared room",
+        "bed_place": "Bed space"
+      },
+      "noResults": "No listings yet",
+      "noResultsHint": "Try adjusting your filters or check back later",
+      "noProfiles": "No profiles yet",
+      "noProfilesHint": "No one has created a profile yet",
+      "chips": {
+        "utilitiesIncluded": "Utilities included",
+        "noDeposit": "No deposit",
+        "petsAllowed": "Pets allowed",
+        "noSmoking": "No smoking"
+      },
+      "allFilters": "All filters"
+    },
+    "deepFilters": {
+      "title": "Filters",
+      "any": "Any",
+      "yes": "Yes",
+      "no": "No",
+      "clearAll": "Clear all",
+      "apply": "Show results",
+      "pricePayments": "Price & payments",
+      "maxDeposit": "Max deposit",
+      "utilitiesType": "Utilities",
+      "utilities": {
+        "included": "Included",
+        "separate": "Separate",
+        "partly": "Partial"
+      },
+      "negotiable": "Negotiable",
+      "property": "Property & parameters",
+      "propertyType": "Property type",
+      "propTypes": {
+        "flat": "Apartment",
+        "house": "House",
+        "hostel": "Hostel",
+        "other": "Other"
+      },
+      "roomsFrom": "Rooms from",
+      "roomsTo": "Rooms to",
+      "floorFrom": "Floor from",
+      "floorTo": "Floor to",
+      "areaFrom": "Area from (m²)",
+      "areaTo": "Area to (m²)",
+      "elevator": "Has elevator",
+      "offeredPlace": "Offered place",
+      "roomAreaFrom": "Room area from (m²)",
+      "roomAreaTo": "Room area to (m²)",
+      "furnished": "Furnished",
+      "amenities": "Amenities",
+      "amenity": {
+        "wifi": "Wi-Fi",
+        "washingMachine": "Washing machine",
+        "fridge": "Fridge",
+        "kitchen": "Kitchen",
+        "airConditioner": "Air conditioner",
+        "balcony": "Balcony",
+        "parking": "Parking"
+      },
+      "houseRules": "House rules",
+      "smoking": "Smoking",
+      "pets": "Pets",
+      "guests": "Guests",
+      "parties": "Parties",
+      "rules": {
+        "no": "Not allowed",
+        "yes": "Allowed",
+        "onlyBalcony": "Balcony only",
+        "catsOnly": "Cats only",
+        "smallPetsOnly": "Small pets only",
+        "discuss": "Negotiable",
+        "rare": "Rarely",
+        "allowed": "Allowed"
+      },
+      "whoLives": "Current residents",
+      "residentsFrom": "Residents from",
+      "residentsTo": "Residents to",
+      "hasKids": "Has children",
+      "hasPets": "Has pets",
+      "whoTheyWant": "Looking for",
+      "genderPref": "Gender",
+      "genders": {
+        "male": "Male",
+        "female": "Female"
+      },
+      "ageFrom": "Age from",
+      "ageTo": "Age to",
+      "acceptPets": "Accepts pets",
+      "acceptKids": "Accepts children",
+      "acceptSmoking": "Accepts smokers"
+    },
+    "cta": {
+      "title": "Ready to find a roommate?",
+      "text": "Create a listing in a few minutes and start receiving responses from verified users.",
+      "btn": "Create listing"
+    },
+    "tabs": {
+      "ads": "Listings",
+      "profiles": "Roommate profiles"
+    },
+    "compat": {
+      "title": "Fill out your roommate profile",
+      "desc": "We'll show compatibility % with each listing",
+      "btn": "Fill out profile",
+      "loginTitle": "Sign in for matching",
+      "loginDesc": "Sign in and fill out your profile to see compatibility scores"
+    }
+  },
+  "RoommateProfile": {
+    "back": "Back",
+    "titleCreate": "Create Profile",
+    "titleEdit": "Edit Profile",
+    "subtitle": "Fill out your profile so we can find you the perfect roommate",
+    "next": "Next",
+    "prev": "Back",
+    "save": "Save Profile",
+    "error": "Failed to save. Please try again.",
+    "steps": {
+      "budget": "Budget",
+      "roommate": "Who I'm looking for",
+      "lifestyle": "Lifestyle",
+      "about": "About me"
+    },
+    "budget": {
+      "currency": "Currency",
+      "minRent": "Min rent",
+      "maxRent": "Max rent",
+      "rentPeriod": "Rent period",
+      "periods": {
+        "long_term": "Long term",
+        "short_term_daily": "Daily",
+        "3_month": "3 months",
+        "6_month": "6 months",
+        "9_month": "9 months"
+      },
+      "depositOk": "Willing to pay deposit",
+      "depositOkHint": "Are you willing to pay a deposit upon move-in",
+      "maxDeposit": "Max deposit amount"
+    },
+    "roommate": {
+      "gender": "Preferred roommate gender",
+      "genders": {
+        "any": "Any",
+        "male": "Male",
+        "female": "Female"
+      },
+      "minAge": "Age from",
+      "maxAge": "Age to",
+      "okCouples": "OK with couples",
+      "okChildren": "OK with children"
+    },
+    "lifestyle": {
+      "smoking": "Smoking",
+      "smokingOptions": {
+        "no_smoking": "No smoking",
+        "outside_only": "Balcony only",
+        "any": "Don't care"
+      },
+      "pets": "Pets",
+      "petsOptions": {
+        "no_pets": "No pets",
+        "pets_ok": "Pets welcome",
+        "any": "Don't care"
+      },
+      "guests": "Guests",
+      "guestsOptions": {
+        "no_parties": "No parties",
+        "sometimes_small": "Sometimes small ones",
+        "any": "Don't care"
+      },
+      "alcohol": "Alcohol",
+      "alcoholOptions": {
+        "no_alcohol": "Don't drink",
+        "sometimes_ok": "Sometimes",
+        "any": "Don't care"
+      },
+      "scheduleFrom": "Quiet hours from",
+      "scheduleTo": "Quiet hours to",
+      "scheduleHint": "Quiet hours (0–24)",
+      "comment": "Roommate comment",
+      "commentPlaceholder": "What else is important to you when choosing a roommate..."
+    },
+    "about": {
+      "homeType": "Current home type",
+      "selectHomeType": "Select type",
+      "homeTypes": {
+        "apartment": "Apartment",
+        "house": "House",
+        "hostel": "Hostel",
+        "room": "Room"
+      },
+      "district": "District",
+      "districtPlaceholder": "e.g. South Gates",
+      "homeDesc": "Home description",
+      "homeDescPlaceholder": "Tell us about your current home...",
+      "notes": "About yourself",
+      "notesPlaceholder": "Your hobbies, work, habits...",
+      "notesHint": "This information helps find a compatible roommate"
+    },
+    "success": {
+      "title": "Profile saved!",
+      "desc": "Now you'll see compatibility scores with every listing",
+      "btn": "Browse listings"
+    }
+  }
+}

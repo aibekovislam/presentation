@@ -1,0 +1,167 @@
+.footer {
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 1376px;
+  margin: 0 auto;
+  padding: 48px 24px 32px;
+}
+
+/* ── Grid ── */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ── Brand column ── */
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--primary);
+  text-decoration: none;
+  letter-spacing: -0.03em;
+}
+
+.brandDesc {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.contactLink:hover {
+  color: var(--neutral-text);
+}
+
+/* ── Link columns ── */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.columnTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--neutral-text);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  font-size: 14px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.link:hover {
+  color: var(--neutral-text);
+}
+
+/* ── Bottom bar ── */
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.copy {
+  font-size: 13px;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.bottomLink {
+  font-size: 13px;
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.bottomLink:hover {
+  color: #6b7280;
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 36px 16px 24px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .bottomLinks {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

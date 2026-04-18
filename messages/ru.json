@@ -1,0 +1,1033 @@
+{
+  "Metadata": {
+    "title": "Bolmo — соседи по съёму жилья в Бишкеке",
+    "description": "Bolmo — сервис для поиска соседей по съёму жилья и комнат для совместной аренды в Бишкеке. Проверенные объявления, анкеты совместимости, безопасный чат и простой договор."
+  },
+  "RentPage": {
+    "metaTitle": "Аренда жилья в Бишкеке — квартиры, комнаты, дома",
+    "metaDescription": "Аренда жилья в Бишкеке: квартиры, комнаты, дома и коттеджи. Длительная и посуточная аренда с проверенными объявлениями на Bolmo.",
+    "heading": "Аренда жилья",
+    "subheading": "Найдите идеальное жильё для аренды в Бишкеке"
+  },
+  "SalePage": {
+    "metaTitle": "Продажа недвижимости в Бишкеке — квартиры, дома, участки",
+    "metaDescription": "Купить недвижимость в Бишкеке: квартиры, дома, коттеджи и земельные участки. Проверенные объявления на Bolmo.",
+    "heading": "Продажа недвижимости",
+    "subheading": "Найдите идеальную недвижимость для покупки в Бишкеке"
+  },
+  "CoLivingPage": {
+    "metaTitle": "Сожительство в Бишкеке — найти соседа, подселение",
+    "metaDescription": "Поиск соседей для совместной аренды жилья в Бишкеке. Анкеты, проверенные объявления и безопасный чат на Bolmo.",
+    "heading": "Сожительство",
+    "subheading": "Найдите идеального соседа для совместного проживания",
+    "tabAds": "Объявления",
+    "tabProfiles": "Анкеты соседей"
+  },
+  "CoLivingDetail": {
+    "breadcrumb": {
+      "home": "Главная",
+      "coLiving": "Сожительство"
+    },
+    "share": "Поделиться",
+    "save": "Сохранить",
+    "saved": "Сохранено",
+    "published": "Опубликовано",
+    "views": {
+      "one": "просмотр",
+      "few": "просмотра",
+      "many": "просмотров"
+    },
+    "propertyType": {
+      "flat": "Квартира",
+      "house": "Дом"
+    },
+    "offeredPlace": {
+      "separate_room": "Отдельная комната",
+      "shared_room": "Общая комната",
+      "bed_place": "Спальное место",
+      "bed": "Кровать"
+    },
+    "residents": "жильцов",
+    "rooms": "комнат",
+    "currentResidents": "Текущие жильцы",
+    "residentsCount": "Сейчас проживает: {count}",
+    "hasPets": "есть домашние животные",
+    "gender": {
+      "male": "Мужчина",
+      "female": "Женщина",
+      "any": "Любой"
+    },
+    "years": "лет",
+    "desiredRoommate": "Кого ищут",
+    "preferredGender": "Пол",
+    "applicantsCount": "Ищут человек",
+    "withKids": "С детьми",
+    "withPets": "С животными",
+    "occupationNotes": "Род деятельности",
+    "rules": {
+      "title": "Правила дома",
+      "smoking": "Курение",
+      "guests": "Гости",
+      "parties": "Вечеринки",
+      "pets": "Животные",
+      "kids": "Дети"
+    },
+    "policy": {
+      "yes": "Разрешено",
+      "no": "Запрещено",
+      "rare": "Иногда"
+    },
+    "description": "Описание",
+    "showMore": "Показать полностью →",
+    "showLess": "Свернуть ↑",
+    "paymentPeriod": {
+      "per_month": "месяц",
+      "per_week": "неделя",
+      "per_day": "день"
+    },
+    "card": {
+      "contactOwner": "Написать",
+      "showPhone": "Показать телефон",
+      "placeType": "Тип места",
+      "propertyType": "Тип жилья",
+      "residents": "Жильцов",
+      "utilities": "Оплата ЖКХ",
+      "deposit": "Залог",
+      "preferredGender": "Предпочтительный пол",
+      "note": "Свяжитесь с владельцем для уточнения деталей",
+      "compatibility": "Совместимость",
+      "compatibilityDesc": "На основе вашего профиля"
+    },
+    "utilities": {
+      "included": "Включены",
+      "excluded": "Отдельно",
+      "separate": "Отдельно",
+      "partial": "Частично",
+      "partly": "Частично"
+    },
+    "similar": "Похожие объявления",
+    "notFound": "Объявление не найдено",
+    "backToList": "← Вернуться к списку",
+    "promoText": "Здесь может быть ваша реклама",
+    "promoTitle": "Здесь может быть ваша реклама",
+    "promoDesc": "Разместите рекламу на bolmo и привлекайте тысячи потенциальных клиентов каждый день",
+    "promoBtn": "Связаться с нами",
+    "shareModal": {
+      "title": "Поделиться",
+      "copied": "Скопировано!",
+      "copy": "Копировать"
+    },
+    "owner": {
+      "title": "Об авторе",
+      "onBolmoSince": "На Bolmo с {date}",
+      "listings": "объявлений",
+      "verified": "Подтверждён",
+      "call": "Позвонить",
+      "message": "Написать"
+    }
+  },
+  "Ads": {
+    "searchBar": {
+      "locationShort": "Где?",
+      "location": "Где? район, микрорайон, ориентир",
+      "locationLabel": "Где",
+      "rooms": "Комнат",
+      "roomsSuffix": "комн",
+      "roomsLabel": "Комнат",
+      "roomsPlaceholder": "Сколько комнат?",
+      "price": "Цена",
+      "priceLabel": "Цена",
+      "pricePlaceholder": "Укажите бюджет",
+      "priceFrom": "от",
+      "priceTo": "до",
+      "search": "Найти",
+      "districts": "Поиск по районам",
+      "district": {
+        "leninsky": "Ленинский район",
+        "oktyabrsky": "Октябрьский район",
+        "pervomaysky": "Первомайский район",
+        "sverdlovsky": "Свердловский район",
+        "center": "Центр",
+        "jugZapad": "Юг / Юго-Запад",
+        "asanbai": "Асанбай",
+        "microrayonы": "Микрорайоны"
+      },
+      "pricePreset": {
+        "to10": "до 10 000 сом",
+        "to15": "до 15 000 сом",
+        "to20": "до 20 000 сом",
+        "to30": "до 30 000 сом",
+        "to50": "до 50 000 сом",
+        "over50": "50 000+ сом"
+      }
+    },
+    "chips": {
+      "budget": "Снять жильё до 20тыс",
+      "roommate": "Ищу соседа",
+      "pets": "Можно с животными",
+      "center": "В центре",
+      "daily": "Жильё на сутки",
+      "forGirls": "Для девушки",
+      "vacation": "Для отдыха",
+      "noBroker": "Без посредников"
+    },
+    "sections": {
+      "rentApartments": "Квартиры на аренду"
+    },
+    "favorite": "В избранное",
+    "kind": {
+      "RENT": "Аренда",
+      "SALE": "Продажа",
+      "HOUSEMATE": "Сожительство"
+    },
+    "rooms": "комн.",
+    "residents": "чел.",
+    "rentType": {
+      "long_term": "Длительная",
+      "daily": "Посуточная"
+    },
+    "offeredPlace": {
+      "separate_room": "Отдельная комната",
+      "shared_room": "Совместная комната",
+      "bed": "Койко-место",
+      "bed_place": "Койко-место"
+    },
+    "propertyType": {
+      "flat": "Квартира",
+      "house": "Дом",
+      "cottage": "Коттедж",
+      "land": "Участок",
+      "room": "Комната"
+    },
+    "noResults": "Объявлений пока нет",
+    "prev": "Назад",
+    "next": "Вперёд",
+    "filters": {
+      "search": "Поиск по объявлениям...",
+      "filters": "Фильтры",
+      "apply": "Найти",
+      "clear": "Сбросить",
+      "city": "Город",
+      "priceFrom": "Цена от",
+      "priceTo": "Цена до",
+      "sortNew": "Сначала новые",
+      "sortPrice": "По цене",
+      "rentType": "Тип аренды",
+      "rooms": "Комнаты",
+      "propertyType": "Тип недвижимости",
+      "placeType": "Тип места"
+    },
+    "profiles": {
+      "searchPlaceholder": "Поиск по анкетам...",
+      "gender": {
+        "male": "Мужской",
+        "female": "Женский",
+        "any": "Любой"
+      },
+      "years": "лет"
+    }
+  },
+  "LayoutMetadata": {
+    "titleDefault": "Bolmo — соседи по съёму жилья в Бишкеке",
+    "description": "Bolmo — сервис для поиска соседей по съёму жилья и комнат для совместной аренды в Бишкеке. Проверенные объявления, анкеты совместимости, безопасный чат и простой договор.",
+    "ogTitle": "Bolmo — поиск соседей и комнат в Бишкеке",
+    "ogDescription": "Поиск соседей, комнат и совместной аренды жилья в Бишкеке: анкеты совместимости, проверенные объявления, безопасный чат и простой договор.",
+    "ogAlt": "Bolmo — сервис поиска соседей и комнат в Бишкеке",
+    "twitterTitle": "Bolmo — соседи по съёму жилья в Бишкеке",
+    "twitterDescription": "Поиск соседей и комнат для совместной аренды жилья в Бишкеке. Безопасный чат, верификация и простой договор."
+  },
+  "HomePage": {
+    "Header": {
+      "nav": {
+        "rent": "Аренда жилья",
+        "coLiving": "Сожительство",
+        "sale": "Продажа"
+      },
+      "actions": {
+        "postAd": "Разместить объявление",
+        "language": "Язык",
+        "menu": "Меню",
+        "signIn": "Войти",
+        "profile": "Профиль",
+        "verifyContact": "Подтвердить контакт",
+        "logout": "Выйти",
+        "account": "Аккаунт"
+      },
+      "brandTagline": "Аренда • Продажа • Сожительство",
+      "megaTabs": {
+        "rent": "Аренда",
+        "coLiving": "Сожительство",
+        "sale": "Продажа"
+      },
+      "rent": {
+        "long": "Длительная аренда",
+        "flats": "Квартиры",
+        "room": "Комната",
+        "houses": "Дома и коттеджи",
+        "daily": "Посуточная аренда",
+        "leaseOut": "Сдать"
+      },
+      "coLiving": {
+        "search": "Найти соседа",
+        "post": "Посмотреть анкеты"
+      },
+      "sale": {
+        "flat": "Квартиры",
+        "house": "Дома и коттеджи",
+        "land": "Земельные участки"
+      },
+      "forms": {
+        "renter": "Анкета арендатора",
+        "roommate": "Анкета подселения"
+      },
+      "journal": {
+        "rent": "Bolmo.Журнал / Аренда",
+        "coLiving": "Bolmo.Журнал / Сожительство",
+        "forms": "Bolmo.Журнал / Анкета"
+      }
+    }
+  },
+  "auth": {
+    "registerTitle": "Создать аккаунт",
+    "registerSubtitle": "Присоединяйтесь к Bolmo, чтобы найти идеального соседа",
+    "loginTitle": "Войти",
+    "loginSubtitle": "Добро пожаловать обратно в Bolmo",
+    "verifyEmailTitle": "Подтвердите email",
+    "verifyEmailSubtitle": "Введите почту или номер телефона для получения кода подтверждения",
+    "enterCodeSubtitle": "Введите 6-значный код, отправленный на ваш email",
+    "resetPasswordTitle": "Сбросить пароль",
+    "resetPasswordSubtitle": "Введите почту или номер телефона для сброса пароля",
+    "enterNewPasswordSubtitle": "Введите код и новый пароль",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "email": "Email",
+    "contact": "Почта или телефон",
+    "password": "Пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "newPassword": "Новый пароль",
+    "confirmNewPassword": "Подтвердите новый пароль",
+    "verificationCode": "Код подтверждения",
+    "acceptTerms": "Я принимаю",
+    "termsOfService": "Условия использования",
+    "marketingOptIn": "Я хочу получать маркетинговые emails",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "register": "Регистрация",
+    "registering": "Регистрация...",
+    "signIn": "Войти",
+    "signingIn": "Вход...",
+    "sendCode": "Отправить код",
+    "sending": "Отправка...",
+    "verify": "Подтвердить",
+    "verifying": "Подтверждение...",
+    "resendCode": "Отправить код повторно",
+    "sendResetCode": "Отправить код сброса",
+    "resetPassword": "Сбросить пароль",
+    "resetting": "Сброс...",
+    "haveAccount": "Уже есть аккаунт?",
+    "noAccount": "Нет аккаунта?",
+    "backToLogin": "Вернуться к входу",
+    "codeSentTo": "Код отправлен на",
+    "weak": "Слабый",
+    "medium": "Средний",
+    "strong": "Сильный",
+    "firstNameRequired": "Имя обязательно",
+    "lastNameRequired": "Фамилия обязательна",
+    "emailRequired": "Email обязателен",
+    "emailInvalid": "Введите корректный email",
+    "contactRequired": "Почта или телефон обязательны",
+    "contactInvalid": "Введите корректную почту или номер телефона",
+    "passwordRequired": "Пароль обязателен",
+    "codeRequired": "Код подтверждения обязателен",
+    "codeInvalid": "Код должен быть 6 цифр",
+    "passwordMismatch": "Пароли не совпадают",
+    "termsRequired": "Необходимо принять условия использования"
+  },
+  "Profile": {
+    "verified": "Подтверждён",
+    "notVerified": "Не подтверждён",
+    "memberSince": "На Bolmo с {date}",
+    "views": "просм.",
+    "tabs": {
+      "myAds": "Мои объявления",
+      "favorites": "Избранное",
+      "settings": "Настройки"
+    },
+    "statusFilter": {
+      "all": "Все",
+      "PUBLISHED": "Активные",
+      "DRAFT": "Черновики",
+      "ARCHIVED": "Архив"
+    },
+    "status": {
+      "PUBLISHED": "Активно",
+      "DRAFT": "Черновик",
+      "ARCHIVED": "В архиве"
+    },
+    "actions": {
+      "publish": "Опубликовать",
+      "activate": "Включить",
+      "deactivate": "Выключить",
+      "archive": "В архив"
+    },
+    "emptyAds": {
+      "title": "У вас пока нет объявлений",
+      "desc": "Создайте своё первое объявление и начните получать отклики.",
+      "action": "Создать объявление"
+    },
+    "emptyFavs": {
+      "title": "Нет избранных объявлений",
+      "desc": "Добавляйте понравившиеся объявления в избранное, чтобы не потерять.",
+      "action": "Смотреть объявления"
+    },
+    "verify": {
+      "title": "Подтвердите телефон",
+      "desc": "Для публикации объявления необходимо подтвердить номер телефона.",
+      "phoneLabel": "Номер телефона",
+      "phoneRequired": "Введите номер телефона",
+      "sendCode": "Отправить код",
+      "sending": "Отправка...",
+      "sendFailed": "Не удалось отправить код",
+      "codeLabel": "Код из SMS",
+      "codeInvalid": "Введите 6-значный код",
+      "codeSentTo": "Код отправлен на {phone}",
+      "confirm": "Подтвердить",
+      "verifying": "Проверка...",
+      "confirmFailed": "Неверный код",
+      "resend": "Отправить повторно"
+    },
+    "settings": {
+      "changePassword": "Сменить пароль",
+      "currentPassword": "Текущий пароль",
+      "newPassword": "Новый пароль",
+      "confirmNewPassword": "Подтвердите новый пароль",
+      "savePassword": "Сменить пароль",
+      "saving": "Сохранение...",
+      "currentPwRequired": "Введите текущий пароль",
+      "newPwTooShort": "Минимум 6 символов",
+      "pwMismatch": "Пароли не совпадают",
+      "pwChangeFailed": "Не удалось сменить пароль",
+      "pwChangeSuccess": "Пароль успешно изменён",
+      "logoutTitle": "Выход из аккаунта",
+      "logoutBtn": "Выйти"
+    }
+  },
+  "RentDetail": {
+    "breadcrumb": {
+      "home": "Главная",
+      "rent": "Аренда"
+    },
+    "share": "Поделиться",
+    "save": "Сохранить",
+    "saved": "Сохранено",
+    "propertyType": {
+      "flat": "Квартира",
+      "room": "Комната",
+      "house": "Дом",
+      "cottage": "Коттедж",
+      "studio": "Студия"
+    },
+    "rentType": {
+      "long_term": "Длительная аренда",
+      "daily": "Посуточная аренда"
+    },
+    "published": "Опубликовано",
+    "views": {
+      "one": "просмотр",
+      "few": "просмотра",
+      "many": "просмотров"
+    },
+    "stats": {
+      "totalArea": "Общая площадь",
+      "livingArea": "Жилая площадь",
+      "kitchenArea": "Площадь кухни",
+      "rooms": "Комнат",
+      "floor": "Этаж",
+      "floorOf": "из",
+      "yearBuilt": "Год постройки",
+      "maxResidents": "Макс. жильцов",
+      "minLease": "Мин. срок",
+      "months": "мес."
+    },
+    "amenities": "Удобства",
+    "description": "Описание",
+    "showMore": "Показать полностью →",
+    "showLess": "Свернуть ↑",
+    "rules": {
+      "title": "Правила проживания",
+      "pets": "Животные",
+      "kids": "Дети",
+      "smoking": "Курение",
+      "alcohol": "Алкоголь",
+      "parties": "Вечеринки",
+      "instruments": "Муз. инструменты",
+      "guests": "Гости",
+      "cleaning": "Обязательная уборка",
+      "shoesOff": "Снимать обувь",
+      "quietHours": "Тихие часы",
+      "allowed": "Разрешено",
+      "notAllowed": "Запрещено",
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "location": "Расположение",
+    "card": {
+      "perDay": "сутки",
+      "perMonth": "месяц",
+      "negotiable": "Торг уместен",
+      "contactOwner": "Написать владельцу",
+      "showPhone": "Показать телефон",
+      "utilities": "Оплата ЖКХ",
+      "deposit": "Залог",
+      "commission": "Комиссия",
+      "noCommission": "нет",
+      "prepayment": "Предоплата",
+      "leaseTerm": "Срок аренды",
+      "leaseFrom": "от",
+      "maxResidents": "Максимум жильцов",
+      "livingConditions": "Условия проживания",
+      "withKids": "с детьми",
+      "withPets": "с животными",
+      "note": "Свяжитесь с владельцем для уточнения деталей"
+    },
+    "utilities": {
+      "included": "Включены в стоимость",
+      "excluded": "Оплачиваются отдельно",
+      "partial": "Частично включены"
+    },
+    "amenityLabels": {
+      "wifi": "Wi-Fi",
+      "ac": "Кондиционер",
+      "air_conditioner": "Кондиционер",
+      "elevator": "Лифт",
+      "security": "Охрана",
+      "tv": "Телевизор",
+      "parking": "Парковка",
+      "gym": "Тренажёрный зал",
+      "pool": "Бассейн",
+      "washer": "Стиральная машина",
+      "washing_machine": "Стиральная машина",
+      "balcony": "Балкон",
+      "fridge": "Холодильник",
+      "refrigerator": "Холодильник",
+      "heating": "Отопление",
+      "kitchen": "Кухня",
+      "furniture": "Мебель",
+      "bath": "Ванная",
+      "dishwasher": "Посудомоечная машина",
+      "microwave": "Микроволновая печь",
+      "bedroom": "Спальное место"
+    },
+    "similar": "Похожие объявления",
+    "notFound": "Объявление не найдено",
+    "backToList": "← Вернуться к списку",
+    "allPhotos": "Все фото",
+    "promoText": "Здесь может быть ваша реклама",
+    "promoTitle": "Здесь может быть ваша реклама",
+    "promoDesc": "Разместите рекламу на bolmo и привлекайте тысячи потенциальных клиентов каждый день",
+    "promoBtn": "Связаться с нами",
+    "shareModal": {
+      "title": "Поделиться",
+      "copied": "Скопировано!",
+      "copy": "Копировать"
+    },
+    "nav": {
+      "photos": "Фотографии",
+      "description": "Описание",
+      "location": "Расположение",
+      "similar": "Похожие объявления"
+    },
+    "owner": {
+      "title": "О владельце",
+      "onBolmoSince": "На Bolmo с {date}",
+      "listings": "объявлений",
+      "verified": "Подтверждён",
+      "notVerified": "Не подтверждён",
+      "call": "Позвонить",
+      "message": "Написать"
+    }
+  },
+  "CreateAd": {
+    "title": "Разместить объявление",
+    "subtitle": "Заполните информацию о вашем объекте",
+    "back": "Назад",
+    "next": "Далее",
+    "prev": "Назад",
+    "publish": "Опубликовать",
+    "publishing": "Публикация...",
+    "addPhoto": "Добавить",
+    "photosHint": "Добавьте до 8 фотографий. Первая фотография станет обложкой.",
+    "steps": {
+      "type": "Тип",
+      "basic": "Основное",
+      "details": "Детали",
+      "review": "Готово"
+    },
+    "types": {
+      "rent": "Аренда",
+      "rentDesc": "Сдать квартиру, комнату или дом",
+      "sale": "Продажа",
+      "saleDesc": "Продать квартиру, дом или участок",
+      "housemate": "Сожительство",
+      "housemateDesc": "Найти соседа для совместной аренды"
+    },
+    "sections": {
+      "basicInfo": "Основная информация",
+      "location": "Местоположение",
+      "price": "Цена",
+      "rentDetails": "Параметры аренды",
+      "saleDetails": "Параметры продажи",
+      "housemateDetails": "Параметры сожительства",
+      "amenities": "Удобства",
+      "photos": "Фотографии",
+      "rules": "Правила проживания",
+      "propertyParams": "Параметры жилья",
+      "rentalConditions": "Условия аренды"
+    },
+    "fields": {
+      "title": "Заголовок",
+      "description": "Описание",
+      "city": "Город",
+      "district": "Район",
+      "street": "Улица",
+      "houseNumber": "Номер дома",
+      "landmark": "Ориентир",
+      "mapLabel": "Точка на карте",
+      "mapHint": "Нажмите на карту, чтобы указать точное местоположение, или введите улицу и дом — точка появится автоматически",
+      "price": "Цена",
+      "currency": "Валюта",
+      "rentType": "Тип аренды",
+      "propertyType": "Тип недвижимости",
+      "roomsCount": "Количество комнат",
+      "maxResidents": "Макс. жильцов",
+      "depositAmount": "Депозит",
+      "totalAreaM2": "Общая площадь (м²)",
+      "livingAreaM2": "Жилая площадь (м²)",
+      "kitchenAreaM2": "Площадь кухни (м²)",
+      "floor": "Этаж",
+      "totalFloors": "Этажей в доме",
+      "yearBuilt": "Год постройки",
+      "commissionPercent": "Комиссия (%)",
+      "prepaymentMonths": "Предоплата (мес.)",
+      "minLeaseMonths": "Мин. срок аренды (мес.)",
+      "utilitiesPaymentType": "Оплата ЖКХ",
+      "isNegotiable": "Торг уместен",
+      "totalArea": "Площадь (м²)",
+      "housematePropertyType": "Тип жилья",
+      "offeredPlaceType": "Что предлагаете",
+      "residentsCount": "Сколько проживающих"
+    },
+    "placeholders": {
+      "title": "Например: Уютная 2-комнатная квартира в центре",
+      "description": "Расскажите подробнее о вашем объекте...",
+      "price": "0",
+      "roomsCount": "Кол-во комнат",
+      "maxResidents": "Макс. жильцов",
+      "depositAmount": "Сумма депозита",
+      "floor": "Этаж",
+      "totalFloors": "Всего этажей",
+      "yearBuilt": "Год",
+      "prepaymentMonths": "Кол-во месяцев",
+      "minLeaseMonths": "Кол-во месяцев",
+      "utilitiesPaymentType": "Выберите",
+      "totalArea": "м²",
+      "residentsCount": "Кол-во человек",
+      "district": "Выберите район",
+      "street": "Например: Манаса",
+      "houseNumber": "Например: 35",
+      "landmark": "Например: Рядом с парком Ынтымак",
+      "additionalRules": "Например: не шуметь после 22:00, не курить в квартире...",
+      "customAmenity": "Например: сауна, тренажёрный зал..."
+    },
+    "cities": {
+      "bishkek": "Бишкек",
+      "osh": "Ош",
+      "jalalabad": "Джалал-Абад",
+      "karakol": "Каракол",
+      "tokmok": "Токмок"
+    },
+    "rentTypes": {
+      "long_term": "Длительная",
+      "daily": "Посуточная"
+    },
+    "propertyTypes": {
+      "flat": "Квартира",
+      "room": "Комната",
+      "house": "Дом",
+      "cottage": "Коттедж",
+      "studio": "Студия",
+      "land": "Участок"
+    },
+    "placeTypes": {
+      "separate_room": "Отдельная комната",
+      "shared_room": "Совместная комната",
+      "bed_place": "Койко-место",
+      "bed": "Кровать"
+    },
+    "amenities": {
+      "wifi": "Wi-Fi",
+      "washer": "Стиральная машина",
+      "fridge": "Холодильник",
+      "ac": "Кондиционер",
+      "tv": "Телевизор",
+      "parking": "Парковка",
+      "balcony": "Балкон",
+      "furniture": "Мебель",
+      "dishwasher": "Посудомоечная машина",
+      "microwave": "Микроволновка",
+      "custom": "Своё удобство",
+      "add": "Добавить"
+    },
+    "utilities": {
+      "included": "Включены в стоимость",
+      "separate": "Оплачиваются отдельно",
+      "partly": "Частично включены",
+      "excluded": "Не включены"
+    },
+    "rules": {
+      "allowedWithKids": "Можно с детьми",
+      "allowedWithPets": "Можно с животными",
+      "smokingAllowed": "Можно курить",
+      "alcoholAllowed": "Можно алкоголь",
+      "partiesAllowed": "Можно вечеринки",
+      "instrumentsAllowed": "Можно муз. инструменты",
+      "guestsAllowed": "Можно гостей",
+      "cleaningRequired": "Обязательная уборка",
+      "shoesOffRequired": "Снимать обувь",
+      "quietHoursFrom": "Тихие часы с",
+      "quietHoursTo": "Тихие часы до",
+      "additionalRulesText": "Дополнительные правила"
+    },
+    "verify": {
+      "title": "Подтвердите телефон",
+      "desc": "Для публикации объявления необходимо подтвердить номер телефона. Мы отправим SMS с кодом.",
+      "phoneLabel": "Номер телефона",
+      "phoneRequired": "Введите номер телефона",
+      "sendCode": "Отправить код",
+      "sending": "Отправка...",
+      "sendFailed": "Не удалось отправить код. Попробуйте позже.",
+      "codeLabel": "Код из SMS",
+      "codeInvalid": "Введите 6-значный код",
+      "codeSentTo": "Код отправлен на {phone}",
+      "confirm": "Подтвердить",
+      "verifying": "Проверка...",
+      "confirmFailed": "Неверный код. Попробуйте ещё раз.",
+      "resend": "Отправить код повторно"
+    },
+    "errors": {
+      "titleRequired": "Введите заголовок",
+      "priceRequired": "Укажите цену",
+      "cityRequired": "Выберите город",
+      "districtRequired": "Выберите район",
+      "roomsInvalid": "Укажите от 1 до 20 комнат",
+      "areaInvalid": "Укажите корректную площадь",
+      "residentsRequired": "Укажите количество проживающих",
+      "generic": "Произошла ошибка. Попробуйте ещё раз."
+    },
+    "success": {
+      "publishedTitle": "Объявление опубликовано!",
+      "publishedDesc": "Ваше объявление успешно создано и отправлено на модерацию. Оно появится в поиске после проверки.",
+      "draftTitle": "Черновик сохранён",
+      "draftDesc": "Объявление сохранено как черновик. Подтвердите номер телефона, чтобы опубликовать его.",
+      "viewAd": "Посмотреть",
+      "createAnother": "Создать ещё"
+    }
+  },
+  "CoLivingLanding": {
+    "hero": {
+      "badge": "Новый способ жить вместе",
+      "title": "Найдите идеального соседа для совместного проживания",
+      "subtitle": "Подбирайте соседей по совместимости, просматривайте проверенные объявления и начните комфортное совместное проживание уже сегодня.",
+      "features": {
+        "verified": {
+          "title": "Проверенные анкеты",
+          "desc": "Все пользователи проходят верификацию"
+        },
+        "matching": {
+          "title": "Подбор по совместимости",
+          "desc": "Находите людей с похожим образом жизни"
+        },
+        "safe": {
+          "title": "Безопасное общение",
+          "desc": "Встроенный чат для знакомства"
+        }
+      },
+      "card1": {
+        "name": "Айбек",
+        "info": "25 лет, IT-специалист",
+        "tag": "Ищет комнату"
+      },
+      "card2": {
+        "name": "Мария",
+        "info": "23 года, студентка",
+        "tag": "Ищет соседку"
+      },
+      "match": "Совпадение 92%!",
+      "matchDesc": "Похожие интересы и образ жизни"
+    },
+    "card": {
+      "place": {
+        "separate_room": "Отдельная комната",
+        "shared_room": "Общая комната",
+        "bed_place": "Спальное место",
+        "bed": "Кровать"
+      },
+      "smoking": "Курение",
+      "pets": "Питомцы",
+      "parties": "Вечеринки",
+      "period": {
+        "per_month": "мес",
+        "per_week": "нед",
+        "per_day": "день"
+      },
+      "prop": {
+        "flat": "Квартира",
+        "house": "Дом",
+        "hostel": "Хостел",
+        "other": "Другое"
+      },
+      "residents": "чел.",
+      "gender": {
+        "male": "Для мужчин",
+        "female": "Для женщин"
+      },
+      "verified": "Проверено",
+      "housing": "Жильё",
+      "roommates": "Соседи",
+      "of": "из",
+      "deposit": "Депозит",
+      "lookingFor": "Ищут",
+      "noSmoking": "Без курения",
+      "noParties": "Без вечеринок",
+      "noPets": "Без животных",
+      "petsOk": "Можно с животными",
+      "noGuests": "Без гостей",
+      "matchTitle": "Совместимость",
+      "matchHigh": "Хорошее совпадение",
+      "matchMed": "Среднее совпадение",
+      "matchLow": "Низкое совпадение",
+      "profileVerified": "Профиль подтверждён",
+      "details": "Подробнее"
+    },
+    "profile": {
+      "gender": {
+        "male": "Мужской",
+        "female": "Женский",
+        "any": "Любой"
+      },
+      "years": "лет",
+      "contact": "Написать"
+    },
+    "feed": {
+      "searchPlaceholder": "Поиск по объявлениям...",
+      "searchProfiles": "Поиск по анкетам...",
+      "placeTypeAll": "Все типы мест",
+      "place": {
+        "separate_room": "Отдельная комната",
+        "shared_room": "Общая комната",
+        "bed_place": "Спальное место"
+      },
+      "noResults": "Объявлений пока нет",
+      "noResultsHint": "Попробуйте изменить фильтры или зайдите позже",
+      "noProfiles": "Анкет пока нет",
+      "noProfilesHint": "Пока никто не создал анкету",
+      "chips": {
+        "utilitiesIncluded": "ЖКХ включены",
+        "noDeposit": "Без депозита",
+        "petsAllowed": "Можно с животными",
+        "noSmoking": "Без курения"
+      },
+      "allFilters": "Все фильтры"
+    },
+    "deepFilters": {
+      "title": "Фильтры",
+      "any": "Любой",
+      "yes": "Да",
+      "no": "Нет",
+      "clearAll": "Сбросить все",
+      "apply": "Показать",
+      "pricePayments": "Цена и платежи",
+      "maxDeposit": "Депозит до",
+      "utilitiesType": "Коммунальные",
+      "utilities": {
+        "included": "Включены",
+        "separate": "Отдельно",
+        "partly": "Частично"
+      },
+      "negotiable": "Торг возможен",
+      "property": "Тип жилья и параметры",
+      "propertyType": "Тип объекта",
+      "propTypes": {
+        "flat": "Квартира",
+        "house": "Дом",
+        "hostel": "Хостел",
+        "other": "Другое"
+      },
+      "roomsFrom": "Комнат от",
+      "roomsTo": "Комнат до",
+      "floorFrom": "Этаж от",
+      "floorTo": "Этаж до",
+      "areaFrom": "Площадь от (м²)",
+      "areaTo": "Площадь до (м²)",
+      "elevator": "Есть лифт",
+      "offeredPlace": "Предлагаемое место",
+      "roomAreaFrom": "Площадь комнаты от (м²)",
+      "roomAreaTo": "Площадь комнаты до (м²)",
+      "furnished": "Меблировано",
+      "amenities": "Удобства",
+      "amenity": {
+        "wifi": "Wi-Fi",
+        "washingMachine": "Стиралка",
+        "fridge": "Холодильник",
+        "kitchen": "Кухня",
+        "airConditioner": "Кондиционер",
+        "balcony": "Балкон",
+        "parking": "Парковка"
+      },
+      "houseRules": "Правила дома",
+      "smoking": "Курение",
+      "pets": "Животные",
+      "guests": "Гости",
+      "parties": "Вечеринки",
+      "rules": {
+        "no": "Запрещено",
+        "yes": "Разрешено",
+        "onlyBalcony": "Только на балконе",
+        "catsOnly": "Только кошки",
+        "smallPetsOnly": "Только мелкие",
+        "discuss": "Обсуждается",
+        "rare": "Редко",
+        "allowed": "Разрешено"
+      },
+      "whoLives": "Кто уже живёт",
+      "residentsFrom": "Жильцов от",
+      "residentsTo": "Жильцов до",
+      "hasKids": "Есть дети",
+      "hasPets": "Есть питомцы",
+      "whoTheyWant": "Кого ищут",
+      "genderPref": "Пол",
+      "genders": {
+        "male": "Мужчина",
+        "female": "Женщина"
+      },
+      "ageFrom": "Возраст от",
+      "ageTo": "Возраст до",
+      "acceptPets": "Принимают с питомцем",
+      "acceptKids": "Принимают с ребёнком",
+      "acceptSmoking": "Принимают курящего"
+    },
+    "cta": {
+      "title": "Готовы найти соседа?",
+      "text": "Создайте объявление за пару минут и начните получать отклики от проверенных пользователей.",
+      "btn": "Создать объявление"
+    },
+    "tabs": {
+      "ads": "Объявления",
+      "profiles": "Анкеты соседей"
+    },
+    "compat": {
+      "title": "Заполните анкету соседа",
+      "desc": "Мы покажем % совместимости с каждым объявлением",
+      "btn": "Заполнить анкету",
+      "loginTitle": "Войдите для подбора",
+      "loginDesc": "Авторизуйтесь и заполните анкету, чтобы увидеть совместимость"
+    }
+  },
+  "RoommateProfile": {
+    "back": "Назад",
+    "titleCreate": "Создание анкеты",
+    "titleEdit": "Редактирование анкеты",
+    "subtitle": "Заполните анкету, чтобы мы могли подобрать вам идеального соседа",
+    "next": "Далее",
+    "prev": "Назад",
+    "save": "Сохранить анкету",
+    "error": "Не удалось сохранить. Попробуйте ещё раз.",
+    "steps": {
+      "budget": "Бюджет",
+      "roommate": "Кого ищу",
+      "lifestyle": "Образ жизни",
+      "about": "О себе"
+    },
+    "budget": {
+      "currency": "Валюта",
+      "minRent": "Минимум аренды",
+      "maxRent": "Максимум аренды",
+      "rentPeriod": "Срок аренды",
+      "periods": {
+        "long_term": "Длительная аренда",
+        "short_term_daily": "Посуточно",
+        "3_month": "3 месяца",
+        "6_month": "6 месяцев",
+        "9_month": "9 месяцев"
+      },
+      "depositOk": "Готов(а) платить депозит",
+      "depositOkHint": "Согласны ли вы внести залог при заселении",
+      "maxDeposit": "Макс. сумма депозита"
+    },
+    "roommate": {
+      "gender": "Предпочитаемый пол соседа",
+      "genders": {
+        "any": "Не важно",
+        "male": "Мужской",
+        "female": "Женский"
+      },
+      "minAge": "Возраст от",
+      "maxAge": "Возраст до",
+      "okCouples": "Готов(а) жить с парами",
+      "okChildren": "Готов(а) жить с детьми"
+    },
+    "lifestyle": {
+      "smoking": "Курение",
+      "smokingOptions": {
+        "no_smoking": "Не курю / не хочу",
+        "outside_only": "Только на балконе",
+        "any": "Не важно"
+      },
+      "pets": "Животные",
+      "petsOptions": {
+        "no_pets": "Без животных",
+        "pets_ok": "Можно с животными",
+        "any": "Не важно"
+      },
+      "guests": "Гости",
+      "guestsOptions": {
+        "no_parties": "Без вечеринок",
+        "sometimes_small": "Иногда небольшие",
+        "any": "Не важно"
+      },
+      "alcohol": "Алкоголь",
+      "alcoholOptions": {
+        "no_alcohol": "Не пью",
+        "sometimes_ok": "Иногда",
+        "any": "Не важно"
+      },
+      "scheduleFrom": "Тишина с (час)",
+      "scheduleTo": "Тишина до (час)",
+      "scheduleHint": "Часы тишины (0–24)",
+      "comment": "Комментарий о соседе",
+      "commentPlaceholder": "Что ещё важно для вас при выборе соседа..."
+    },
+    "about": {
+      "homeType": "Тип жилья сейчас",
+      "selectHomeType": "Выберите тип",
+      "homeTypes": {
+        "apartment": "Квартира",
+        "house": "Дом",
+        "hostel": "Хостел",
+        "room": "Комната"
+      },
+      "district": "Район",
+      "districtPlaceholder": "Например: Южные Ворота",
+      "homeDesc": "Описание жилья",
+      "homeDescPlaceholder": "Расскажите о вашем текущем жилье...",
+      "notes": "Дополнительно о себе",
+      "notesPlaceholder": "Ваши увлечения, работа, привычки...",
+      "notesHint": "Эта информация поможет найти совместимого соседа"
+    },
+    "success": {
+      "title": "Анкета сохранена!",
+      "desc": "Теперь вы будете видеть процент совместимости с каждым объявлением",
+      "btn": "Перейти к объявлениям"
+    }
+  }
+}

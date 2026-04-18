@@ -1,0 +1,461 @@
+/* ── Header ── */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--background);
+  --header-height: 72px;
+}
+
+.headerStatic {
+  position: relative;
+}
+
+.navbar {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logoCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.logoText {
+  font-weight: 500;
+  font-size: 26px;
+  color: var(--primary);
+  line-height: 1;
+  display: inline-flex;
+}
+
+.logoLetter {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover .logoLetter {
+  animation: logoLetterBounce 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes logoLetterBounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  40% {
+    transform: translateY(-4px) scale(1.1) rotate(-3deg);
+  }
+  70% {
+    transform: translateY(1px) scale(0.97);
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+.logoTagline {
+  font-size: 12px;
+  color: var(--muted-foreground);
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.centerNav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .centerNav {
+    display: none;
+  }
+
+  .logoTagline {
+    display: none;
+  }
+
+  .accountName {
+    display: none;
+  }
+}
+
+.navLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  padding: 11px 0px;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 4px;
+  height: 2px;
+  background: #000;
+  border-radius: 999px;
+  opacity: 0;
+  transition: left 250ms ease, right 250ms ease, opacity 250ms ease;
+}
+
+.navLink:hover::after,
+.navLinkActive::after {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.navIcon {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.navLabel {
+  transition: transform 0.25s ease;
+}
+
+.navLink:hover .navLabel {
+  transform: translateY(-1px);
+}
+
+/* Аренда — домик покачивается */
+.navLinkRent:hover .navIcon {
+  animation: iconWobble 0.5s ease;
+}
+
+@keyframes iconWobble {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-12deg); }
+  50% { transform: rotate(8deg); }
+  75% { transform: rotate(-4deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Сожительство — человечки подпрыгивают */
+.navLinkCoLiving:hover .navIcon {
+  animation: iconJump 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes iconJump {
+  0% { transform: translateY(0); }
+  40% { transform: translateY(-5px) scale(1.15); }
+  70% { transform: translateY(1px) scale(0.95); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+/* Продажа — сумка пружинит */
+.navLinkSale:hover .navIcon {
+  animation: iconBounce 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes iconBounce {
+  0% { transform: scale(1) rotate(0deg); }
+  30% { transform: scale(1.25) rotate(5deg); }
+  60% { transform: scale(0.9) rotate(-3deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+.plusMenuItem {
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+.plusMenuItem svg {
+  color: var(--primary);
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.authSkeleton {
+  width: 128px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.authActionButton {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.accountButton {
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+}
+
+.accountButton:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.accountName {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropdownMenuContentCustom{
+  z-index: 100 !important;
+}
+
+.postButton {
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  background: none;
+}
+
+.postButton:hover{
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.iconButton {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--neutral-text);
+  border: none;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.iconButton:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.iconButtonActive {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.burgerButton svg {
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.closeIcon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  transform: rotate(-45deg) scale(0.8);
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.closeIcon::before,
+.closeIcon::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 18px;
+  height: 2px;
+  background: #000;
+  transform-origin: center;
+  border-radius: 999px;
+}
+
+.closeIcon::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.closeIcon::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.iconButtonActive.burgerButton svg {
+  opacity: 0;
+  transform: scale(0.8) rotate(45deg);
+}
+
+.iconButtonActive.burgerButton .closeIcon {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+
+.burgerWrap {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .burgerWrap {
+    display: inline-flex;
+  }
+}
+
+
+.megaOverlay {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease;
+}
+
+.megaOverlayOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.megaBackdrop {
+  position: absolute;
+  inset: 0;
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: default;
+}
+
+.megaPanelWrap {
+  position: relative;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  background: var(--background);
+  box-shadow: 0 1px 0 #ebebeb, 0 2px 0 #f5f5f5;
+  transform-origin: top;
+  opacity: 0;
+  transform: translateY(-8px) scaleY(0.98);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.megaOverlayOpen .megaPanelWrap {
+  opacity: 1;
+  transform: translateY(0) scaleY(1);
+}
+
+.megaPanel {
+  height: auto;
+}
+
+.megaTabsList {
+  background: transparent !important;
+  padding: 0 !important;
+  height: auto !important;
+  gap: 27px;
+  border: none !important;
+  display: inline-flex;
+  align-items: center;
+}
+
+.megaTab {
+  position: relative;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 10px 0 !important;
+  height: auto !important;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  border-radius: 0 !important;
+}
+
+.megaTab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 2px;
+  background: transparent;
+  border-radius: 999px;
+}
+
+/* shadcn TabsTrigger active state */
+.megaTab[data-state='active']::after {
+  background: var(--primary);
+}
+
+.megaTab[data-state='inactive']:hover::after {
+  background: rgba(110, 65, 230, 0.25);
+}
+
+.megaGrid {
+  display: grid;
+  grid-template-columns: 420px 420px 1fr;
+  gap: 56px;
+  align-items: start;
+  margin-bottom: 28px;
+}
+
+.leftCol,
+.middleCol {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.menuItem {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.journalItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.journalIcon {
+  color: #000;
+  opacity: 0.85;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .megaOverlay,
+  .megaPanelWrap {
+    transition: none;
+  }
+}
