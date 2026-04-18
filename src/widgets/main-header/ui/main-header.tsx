@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import { CheckCircle2, Crown, Globe, Home, Library, LogIn, LogOut, Menu, Plus, ShoppingBag, UserCircle2, Users } from 'lucide-react'
+import { CheckCircle2, Crown, Globe, Home, Library, LogIn, LogOut, Menu, Plus, UserCircle2, Users } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
 import { Button } from '@/components/ui/button'
@@ -21,12 +21,11 @@ import {
   BurgerMenuRentHandbookRoutes,
   BurgerMenuRentRoutes,
   BurgerMenuCoLivingRoutes,
-  BurgerMenuSaleRoutes,
 } from '../model/main-header-menu-routes'
 
 import cls from './main-header.module.css'
 
-type MegaTabValue = 'rent' | 'coLiving' | 'sale'
+type MegaTabValue = 'rent' | 'coLiving'
 type LocaleValue = 'ru' | 'en' | 'kg'
 
 interface MainHeaderProps {
@@ -116,14 +115,6 @@ export const MainHeader: React.FC<MainHeaderProps> = ({ sticky = true }) => {
           >
             <Users size={16} className={cls.navIcon} />
             <span className={cls.navLabel}>{t('nav.coLiving')}</span>
-          </Link>
-
-          <Link
-            href="/sale"
-            className={`${cls.navLink} ${cls.navLinkSale} ${pathname.startsWith('/sale') ? cls.navLinkActive : ''}`}
-          >
-            <ShoppingBag size={16} className={cls.navIcon} />
-            <span className={cls.navLabel}>{t('nav.sale')}</span>
           </Link>
         </nav>
 
@@ -244,9 +235,6 @@ export const MainHeader: React.FC<MainHeaderProps> = ({ sticky = true }) => {
                   <TabsTrigger className={cls.megaTab} value="coLiving">
                     {t('megaTabs.coLiving')}
                   </TabsTrigger>
-                  <TabsTrigger className={cls.megaTab} value="sale">
-                    {t('megaTabs.sale')}
-                  </TabsTrigger>
                 </TabsList>
 
                 <TabsContent className={cls.megaContent} value="rent">
@@ -291,26 +279,6 @@ export const MainHeader: React.FC<MainHeaderProps> = ({ sticky = true }) => {
                   </div>
                 </TabsContent>
 
-                <TabsContent className={cls.megaContent} value="sale">
-                  <div className={cls.megaGrid}>
-                    <div className={cls.leftCol}>
-                      {BurgerMenuSaleRoutes.map((item, index) => (
-                        <Link key={index} className={cls.menuItem} href={item.href} onClick={closeMegaMenu}>
-                          {t(`sale.${item.key}`)}
-                        </Link>
-                      ))}
-                    </div>
-
-                    <div className={cls.middleCol}>
-                      {BurgerMenuRentHandbookRoutes.map((item, index) => (
-                        <Link key={index} className={cls.journalItem} href={item.href} onClick={closeMegaMenu}>
-                          <Library size={16} className={cls.journalIcon}/>
-                          <span>{t(`journal.${item.key}`)}</span>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                </TabsContent>
               </Tabs>
             </div>
           </div>

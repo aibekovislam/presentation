@@ -41,21 +41,6 @@ export const BurgerMenuCoLivingRoutes: MainHeaderBurgerMenuRoutesTypes[] = [
   },
 ]
 
-export const BurgerMenuSaleRoutes: MainHeaderBurgerMenuRoutesTypes[] = [
-  {
-    key: 'flat',
-    href: '/sale?salePropertyType=flat',
-  },
-  {
-    key: 'house',
-    href: '/sale?salePropertyType=house',
-  },
-  {
-    key: 'land',
-    href: '/sale?salePropertyType=land',
-  },
-]
-
 export const BurgerMenuRentHandbookRoutes: MainHeaderBurgerMenuRoutesTypes[] = [
   {
     key: 'rent',

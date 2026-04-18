@@ -493,7 +493,9 @@
     "utilities": {
       "included": "Included in rent",
       "excluded": "Paid separately",
-      "partial": "Partially included"
+      "separate": "Paid separately",
+      "partial": "Partially included",
+      "partly": "Partially included"
     },
     "amenityLabels": {
       "wifi": "Wi-Fi",

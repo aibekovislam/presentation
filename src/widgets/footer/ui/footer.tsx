@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import { Home, Users, ShoppingBag, Mail, Phone, MapPin } from 'lucide-react'
+import { Home, Users, Mail, Phone, MapPin } from 'lucide-react'
 
 import { Link } from '@/i18n/navigation'
 
@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
               bolmo
             </Link>
             <p className={cls.brandDesc}>
-              Платформа для поиска жилья в Кыргызстане. Аренда, продажа и сожительство — всё в одном месте.
+              Платформа для поиска жилья в Кыргызстане. Аренда и сожительство — всё в одном месте.
             </p>
             <div className={cls.contacts}>
               <a href="mailto:info@bolmo.kg" className={cls.contactLink}>
@@ -64,19 +64,6 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Sale */}
-          <div className={cls.column}>
-            <h3 className={cls.columnTitle}>
-              <ShoppingBag size={15} />
-              Продажа
-            </h3>
-            <ul className={cls.linkList}>
-              <li><Link href="/sale" className={cls.link}>Все объявления</Link></li>
-              <li><Link href="/sale?propertyType=flat" className={cls.link}>Квартиры</Link></li>
-              <li><Link href="/sale?propertyType=house" className={cls.link}>Дома</Link></li>
-              <li><Link href="/sale?propertyType=land" className={cls.link}>Участки</Link></li>
-            </ul>
-          </div>
         </div>
 
         <div className={cls.bottom}>

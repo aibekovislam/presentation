@@ -525,15 +525,6 @@ export const CreateAdForm: React.FC = () => {
                 </div>
 
                 <div
-                  className={`${cls.typeCard} ${form.kind === 'SALE' ? cls.typeCardActive : ''}`}
-                  onClick={() => updateField('kind', 'SALE')}
-                >
-                  <div className={cls.typeIcon}><ShoppingBag size={24} /></div>
-                  <div className={cls.typeName}>{t('types.sale')}</div>
-                  <div className={cls.typeDesc}>{t('types.saleDesc')}</div>
-                </div>
-
-                <div
                   className={`${cls.typeCard} ${form.kind === 'HOUSEMATE' ? cls.typeCardActive : ''}`}
                   onClick={() => updateField('kind', 'HOUSEMATE')}
                 >

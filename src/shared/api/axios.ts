@@ -2,6 +2,9 @@ import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios'
 
 import { clearTokens, getAccessToken, getRefreshToken, setAuthTokens } from '@/lib/auth/storage'
 
+import { mockAdapter } from './mock/adapter'
+import { seedMockAuth } from './mock/auto-auth'
+
 type RetryableConfig = InternalAxiosRequestConfig & { _retry?: boolean }
 
 interface RefreshResponse {
@@ -42,12 +45,19 @@ export const normalizeMediaUrl = (url: string): string => {
   return url
 }
 
+const USE_MOCK = (process.env.NEXT_PUBLIC_USE_MOCK ?? 'true').toLowerCase() !== 'false'
+
+if (USE_MOCK) {
+  seedMockAuth()
+}
+
 const api = axios.create({
   baseURL: API_URL,
-  withCredentials: true,
+  withCredentials: !USE_MOCK,
   headers: {
     'Content-Type': 'application/json',
   },
+  ...(USE_MOCK ? { adapter: mockAdapter } : {}),
 })
 
 let refreshPromise: Promise<string | null> | null = null

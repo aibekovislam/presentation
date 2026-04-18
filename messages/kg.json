@@ -493,7 +493,9 @@
     "utilities": {
       "included": "Ижара баасына кирет",
       "excluded": "Өзүнчө төлөнөт",
-      "partial": "Жарым-жартылай кирет"
+      "separate": "Өзүнчө төлөнөт",
+      "partial": "Жарым-жартылай кирет",
+      "partly": "Жарым-жартылай кирет"
     },
     "amenityLabels": {
       "wifi": "Wi-Fi",
